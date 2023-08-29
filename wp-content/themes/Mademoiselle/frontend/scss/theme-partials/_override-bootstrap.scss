@@ -1,0 +1,37 @@
+html{
+    font-size: 10px;
+}
+
+$font-size-base: 1.6rem;
+
+// override bootstrap variables
+$grid-gutter-width: 12px;
+$gray-900: #1E1E1E;
+$primary: #D0B6B6;
+$secondary: #ECD9D9;
+$light:#F5F5F5;
+$danger: #D54857;
+
+$grid-breakpoints: (
+xs: 0,
+xm: 460px,
+sm: 536px,
+md: 740px,
+lg: 992px,
+xl: 1200px
+);
+
+$container-max-widths: (
+xm: 100%,
+sm: 540px,
+md: 720px,
+lg: 960px,
+xl: 1140px
+);
+
+$navbar-light-color: $gray-900;
+$navbar-light-hover-color: $primary;
+$navbar-light-active-color: $primary;
+
+
+

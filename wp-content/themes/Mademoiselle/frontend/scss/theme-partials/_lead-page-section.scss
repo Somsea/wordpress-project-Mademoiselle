@@ -1,0 +1,63 @@
+
+$page-title-color: #FFFFFF;
+
+
+.lead-home-section{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: block;
+}
+
+@media(min-width:320px){
+    .lead-home-section{
+        padding: 100px 0;
+
+        .home-title {
+            text-align: center;
+            color: $page-title-color;
+            font-size: 2rem !important;
+            font-family: $Bodoni-Moda;
+            letter-spacing: 1rem !important;
+        }
+    }
+}
+
+@media(min-width:992px){
+    .lead-home-section{
+        padding: 218px 0 269px;
+
+        .home-title{
+            font-size: 6rem !important;
+            font-weight: $font-weight-light;
+            letter-spacing: 2rem !important;
+            line-height: 8.4rem !important;
+            font-family: $Bodoni-Moda;
+
+        }
+    }
+}
+
+
+// sevices-single 
+
+.service-lead-section{
+
+    padding-top: 60px;
+    .service-description{
+        .title-description{
+            font-size: 4.4rem;
+            line-height: 5rem;
+            text-transform: uppercase;
+        }
+        .text-description{
+            font-size: 1.8rem;
+            font-weight: $font-weight-light;
+            line-height: 2.6rem;
+        }
+    }
+
+}
+
+
+

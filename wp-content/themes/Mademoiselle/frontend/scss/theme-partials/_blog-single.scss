@@ -1,0 +1,98 @@
+
+
+.blog-single{
+    padding: 90px 0px 97px;
+
+    .blog-single-info span.bold{
+        font-family: "Bodoni 72";
+        font-size: 1.4rem;
+        font-style: bold;
+        font-weight: $light;
+        letter-spacing: 1px;
+        line-height: 1.7rem;
+    }
+    .blog-single-info span.italic{
+        font-family: "Bodoni 72";
+        font-size: 1.4rem;
+        font-style: italic;
+        font-weight: $light;
+        letter-spacing: 1px;
+        line-height: 1.7rem;
+    }
+    .blog-single-info span.separator{
+        font-weight: normal;
+        vertical-align: middle;
+        display: inline-block;
+        padding: 0 5px 0 5px;
+        font-size: 0.6em;
+    }
+
+    .blog-single-description{
+
+        .blog-single-title{
+            font-size: 4.4rem;
+            line-height: 5rem;
+            text-transform: uppercase;
+            margin-bottom: 2.8rem;
+        }
+        .blog-single-text{
+            font-size: 2rem;
+            font-weight: $font-weight-light;
+            line-height: 2.8rem;
+        }
+    }
+}
+
+
+.blog-single-content{
+    article{
+        p{
+            font-size: 1.8rem;
+            font-weight: $font-weight-light;
+            line-height: 2.6rem;
+            text-align: justify;
+            margin-bottom: 3rem;
+        }
+    }
+
+    .blog-tags{
+
+        p{
+            font-size: 1.6rem;
+            font-style: italic;
+            font-weight: $font-weight-bold;
+            line-height: 2.7rem;
+        }
+        .tags{
+            a{
+                font-size: 1.6rem;
+                font-weight: $font-weight-light;
+                line-height: 2.7rem;
+                text-align: center;
+                color: $gray-900;
+                background-color: $light;
+                margin-right: 2.2rem;
+                padding: 3px 2rem;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+@media(min-width:320px){
+
+    .blog-single-content{
+        .blog-tags{
+            padding: 41px 0px 60px;
+        }
+    }
+}
+
+@media(min-width:992px){
+
+    .blog-single-content{
+        .blog-tags{
+            padding: 41px 0px 200px;
+        }
+    }
+}

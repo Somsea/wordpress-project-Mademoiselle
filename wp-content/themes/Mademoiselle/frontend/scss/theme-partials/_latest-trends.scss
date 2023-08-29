@@ -1,0 +1,80 @@
+
+$content-title-bg: #FFFFFF;
+$trend-title-bg: #1E1E1E;
+
+.latest-trends{
+    margin-top: 75px;
+    .trend-info{
+        padding: 22px 18px 0;
+        background-color: $content-title-bg;
+
+        .trend-date{
+            font-size: 1.4rem;
+            font-style: italic;
+            font-weight: $font-weight-light;
+            letter-spacing: 1px;
+            line-height: 1.7rem;
+            text-align: center;
+            color: $trend-title-bg;
+            font-family: $Bodoni-Moda;
+        }
+
+        .trend-title{
+            a{
+                font-size: 1.6rem;
+                letter-spacing: 0;
+                line-height: 2.4rem;
+                text-transform: uppercase;
+                font-weight: $font-weight-normal;
+                color: $trend-title-bg;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+@media(min-width:320px){
+    .latest-trends{
+        
+        .trend-info{
+            padding: 22px 18px 0;
+            position: relative;
+            bottom: 81px;
+            width: 90%;
+            left:50%;
+            transform: translateX(-50%);
+        }
+    }
+}
+@media(min-width:992px){
+    .latest-trends{
+
+        .trend-info{
+            padding: 22px 18px 0;
+            position: relative;
+            bottom: 81px;
+            width: 90%;
+            left:50%;
+            transform: translateX(-50%);
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

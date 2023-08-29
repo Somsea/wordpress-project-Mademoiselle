@@ -1,0 +1,12 @@
+
+
+/*section-home-lead*/
+
+.lead-home-section{
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    background-position: center center;
+    width: 100%;
+    height: auto;
+}

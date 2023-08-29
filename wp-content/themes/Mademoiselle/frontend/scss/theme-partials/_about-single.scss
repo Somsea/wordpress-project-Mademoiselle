@@ -1,0 +1,26 @@
+.lead-home-section{
+    text-align: center;
+    .home-title{
+        font-size: 6rem;
+        letter-spacing: 2rem;
+        line-height: 8.4rem;
+        text-align: center;
+        font-weight: $font-weight-light;
+        margin-bottom: 4.5rem;
+    }
+    .link-title{
+        font-size: 1.4rem;
+        letter-spacing: 0.5px;
+        line-height: 1.7rem;
+        background-color: transparent;
+        display: inline-block;
+        border: 1px solid #ffffff;
+        padding: 13px 30px;
+        text-transform: uppercase;
+        box-sizing: border-box;
+        vertical-align: middle;
+        text-decoration: none;
+        font-weight: bold;
+        color: #FFFFFF;
+    }
+}

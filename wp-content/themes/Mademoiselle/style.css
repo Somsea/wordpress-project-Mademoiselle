@@ -1,0 +1,224 @@
+
+/*
+Theme Name: Mademoiselle
+Author: Milos Obradovic
+Author URI: https://wordpress.org/
+Description: WordPress themes for Mademoiselle
+Tags: Responsive, bootstrap 4, Mademoiselle, multipage
+Version: 1.3
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: Mademoiselle
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+.blog-single .blog-single-info a{
+    font-family: "Bodoni 72";
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    line-height: 1.7rem;
+    color: #1E1E1E;
+    text-decoration: none;
+}
+
+.blog-single p {
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 2.8rem;
+}
+
+.blog-single-content article{
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 2.6rem;
+    text-align: justify;
+    margin-bottom: 3rem;
+}
+
+
+/*
+category page style
+*/
+.category-image{
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Veći shadow */
+}
+
+.category-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.category-image:hover .image-overlay {
+    opacity: 0.2;
+}
+
+.category-image:hover img {
+    transform: scale(1.05);
+}
+
+/*service page style*/
+
+.service-home {
+    padding-top: 88px;
+}
+
+.product-content .service-title{
+    font-size: 3.6rem;
+    letter-spacing: 0;
+    line-height: 4.4rem;
+    text-transform: uppercase;
+    margin-bottom: 3.6rem;
+}
+
+.service-link {
+    font-size: 1.4rem;
+    letter-spacing: 0.5px;
+    line-height: 1.7rem;
+    padding: 13px 36px;
+    border: 1px solid #1E1E1E;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    color: #1E1E1E;
+}
+
+@media (min-width: 320px) {
+    .product-content {
+        padding: 40px 0 40px;
+    }
+}
+
+@media (min-width: 792px) {
+    .product-content {
+        padding-left: 15px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .product-content {
+        padding: 125px 95px;
+    }
+}
+
+/* form contact */
+
+
+
+.wpcf7-not-valid-tip {
+    color: #dc3232;
+    font-size: 10px;
+    font-weight: normal;
+    display: block;
+}
+
+.wpcf7 form.invalid .wpcf7-response-output,
+.wpcf7 form.unaccepted .wpcf7-response-output,
+.wpcf7 form.payment-required .wpcf7-response-output {
+    border: 1px solid #e74c3c;
+    background-color: #f9dbdb;
+    color: black;
+    padding: 10px 20px;
+    margin-top: 30px;
+    ;
+    border-radius: 4px;
+    font-size: 1.6rem;
+    width: 400px;
+    margin-left: 0;
+}
+
+button:not(:disabled),
+[type="button"]:not(:disabled),
+[type="reset"]:not(:disabled),
+[type="submit"]:not(:disabled) {
+    cursor: pointer;
+    border: 1px solid #1E1E1E;
+    width: 17.2rem;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    line-height: 4rem;
+    background-color: transparent;
+    text-decoration: none;
+
+}
+
+/*contact info section*/
+
+.info-contact .info-address, .info-contact a {
+    text-decoration: none;
+}
+
+
+/* owl dots*/
+
+
+.owl-theme .owl-dots .owl-dot  {
+    margin-left: -110px !important;
+}
+.owl-theme .owl-dots .owl-dot span  {
+    margin: 0 auto !important;
+}
+
+.service-lead-section .service-description .text-description{
+    margin-top: -20px !important;
+}
+
+/* search widget*/
+
+.about-section .search-box button[type="submit"] {
+    position: absolute;
+    top: 0;
+    right: -60px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 0 !important;
+    cursor: pointer;
+    color: #555;
+    font-size: 2rem;
+    transform: rotateY(180deg);
+}
+
+
+
+.navbar-toggler{
+    transform: rotateY(180deg);
+}
+
+@media (min-width: 320px) {
+    .service-home .service-product .product-content {
+        padding: 40px 0;
+    }
+}
+
+@media (min-width: 792px) {
+    .service-home .service-product .product-content {
+        padding-left: 15px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .service-home .service-product .product-content {
+        padding: 125px 95px;
+    }
+}
+
+
